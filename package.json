@@ -2,13 +2,17 @@
   "name": "chapter4",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "allure:generate": "allure generate allure-results --clean",
+    "allure:serve": "allure serve allure-results"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
     "@playwright/test": "^1.60.0",
-    "@types/node": "^25.9.3"
+    "@types/node": "^25.9.3",
+    "allure-playwright": "^3.10.0"
   }
 }
